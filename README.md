@@ -9,3 +9,4 @@ This repository is about implementing `GO` Learnings handson
   - Sine
   - Cosine
   - Tan
+- square root function

@@ -71,3 +71,13 @@ func TestComputeTanValue(t *testing.T) {
 		t.Error("Incorrect tan value")
 	}
 }
+
+func TestComputeSquareRoot(t *testing.T) {
+	const SquareRoot25 = 5
+
+	result := computeSquareRoot(25)
+
+	if result != SquareRoot25 {
+		t.Error("Incorrect square value")
+	}
+}

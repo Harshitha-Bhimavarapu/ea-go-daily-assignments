@@ -39,6 +39,10 @@ func computeTan(radian float64) float64 {
 	return math.Tan(radian)
 }
 
+func computeSquareRoot(rootValue float64) float64 {
+	return math.Sqrt(rootValue)
+}
+
 func main() {
 	number1, number2 := 1, 2
 	fmt.Println(addTwoNumbers(number1, number2))
@@ -48,4 +52,5 @@ func main() {
 	fmt.Println(computeSine(0))
 	fmt.Println(computeCosine(0))
 	fmt.Println(computeTan(0.785))
+	fmt.Println(computeSquareRoot(25))
 }
