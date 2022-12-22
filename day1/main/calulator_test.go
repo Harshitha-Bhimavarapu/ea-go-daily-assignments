@@ -41,3 +41,33 @@ func TestFailsOnDivisionByZero(t *testing.T) {
 		t.Fatalf("Error divided by zero")
 	}
 }
+
+func TestComputeSinValue(t *testing.T) {
+	const Sin0 = 0
+
+	result := computeSine(0)
+
+	if result != Sin0 {
+		t.Error("Incorrect sine value")
+	}
+}
+
+func TestComputeCosineValue(t *testing.T) {
+	const Cosine0 = 1
+
+	result := computeCosine(0)
+
+	if result != Cosine0 {
+		t.Error("Incorrect cosine value")
+	}
+}
+
+func TestComputeTanValue(t *testing.T) {
+	const Tan45 = 0.9992039901050427
+
+	result := computeTan(0.785)
+
+	if result != Tan45 {
+		t.Error("Incorrect tan value")
+	}
+}

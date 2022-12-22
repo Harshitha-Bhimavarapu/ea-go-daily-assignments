@@ -1,5 +1,11 @@
 # ea-go-daily-assignments
 
-This repo is about implementing `GO` Learnings handson
+This repository is about implementing `GO` Learnings handson
 
-- Implemented simple calculator with arithmetic operations
+### Implemented basic calculator
+
+- arithmetic operations
+- trignometric functions
+  - Sine
+  - Cosine
+  - Tan
