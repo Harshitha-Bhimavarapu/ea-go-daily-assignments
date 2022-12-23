@@ -17,3 +17,5 @@ This repository is about implementing `GO` Learnings handson
 - Interfaces
 - Methods
 - Pointers
+
+### Implement error handling with custom errors
