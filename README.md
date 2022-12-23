@@ -10,3 +10,10 @@ This repository is about implementing `GO` Learnings handson
   - Cosine
   - Tan
 - square root function
+
+### Implement Quick cash functionality
+
+- Structs
+- Interfaces
+- Methods
+- Pointers
