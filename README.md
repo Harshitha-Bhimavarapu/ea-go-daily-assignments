@@ -21,3 +21,5 @@ This repository is about implementing `GO` Learnings handson
 ### Implement error handling with custom errors
 
 ### Prints Hello world using dependency
+
+### Build the `/hello` api using the http standard library
